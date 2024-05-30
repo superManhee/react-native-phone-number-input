@@ -33,7 +33,6 @@ const App = () => {
           )}
           <PhoneInput
             ref={phoneInput}
-            defaultValue={value}
             defaultCode="IN"
             layout="first"
             onChangeText={(text) => {
@@ -57,7 +56,6 @@ const App = () => {
               setValid(checkValid ? checkValid : false);
               setCountryCode(phoneInput.current?.getCountryCode() || '');
               let getNumberAfterPossiblyEliminatingZero = phoneInput.current?.getNumberAfterPossiblyEliminatingZero();
-              console.log(getNumberAfterPossiblyEliminatingZero);
             }}>
             <Text style={styles.buttonText}>Check</Text>
           </TouchableOpacity>

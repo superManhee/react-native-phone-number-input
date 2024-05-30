@@ -12,7 +12,6 @@ export interface PhoneInputProps {
   autoFocus?: boolean;
   defaultCode?: CountryCode;
   value?: string;
-  defaultValue?: string;
   disabled?: boolean;
   disableArrowIcon?: boolean;
   placeholder?: string;

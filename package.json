@@ -9,9 +9,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/garganurag893/react-native-phone-number-input.git"
+    "url": "git+https://github.com/superManhee/react-native-phone-number-input.git"
   },
-  "author": "anuraggarg",
+  "author": "superManhee",
   "license": "MIT",
   "peerDependencies": {
     "react": "*",

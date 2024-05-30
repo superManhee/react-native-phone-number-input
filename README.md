@@ -100,7 +100,7 @@ const App: React.FC = () => {
           )}
           <PhoneInput
             ref={phoneInput}
-            defaultValue={value}
+            defaultValue={value} // 제거
             defaultCode="DM"
             layout="first"
             onChangeText={(text) => {
